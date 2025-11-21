@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DrakMedia — Каталог тематических видеоподборок</title>
+
+    <meta name="description" content="DrakMedia — каталог тематических видео, подборок и коротких роликов. Быстрая загрузка, удобная навигация и структурированное расположение контента.">
+    <meta name="robots" content="index, follow">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(160deg, #1e1b4b 0%, #3f0fff 40%, #00d4ff 100%);
+            color: #fcd34d;
+        }
+
+        header {
+            text-align: center;
+            padding: 40px 20px;
+            background: rgba(0,0,0,0.3);
+        }
+
+        h1 {
+            font-size: 46px;
+            margin: 0 0 15px 0;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+        }
+
+        .desc {
+            max-width: 700px;
+            margin: 0 auto;
+            font-size: 18px;
+            color: #fde68a;
+            line-height: 1.6;
+        }
+
+        .categories {
+            margin: 40px auto;
+            max-width: 900px;
+            display: grid;
+            grid-gap: 20px;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            padding: 0 20px;
+        }
+
+        .cat-item {
+            background: rgba(255,255,255,0.1);
+            padding: 20px;
+            border-radius: 12px;
+            text-align: center;
+            text-decoration: none;
+            color: #fde68a;
+            font-size: 20px;
+            transition: 0.2s;
+        }
+
+        .cat-item:hover {
+            background: rgba(255,255,255,0.25);
+        }
+
+        footer {
+            padding: 30px;
+            text-align: center;
+            color: #fef9c3;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>DrakMedia</h1>
+    <p class="desc">
+        DrakMedia — это тематический каталог видеоподборок, собранных по категориям.
+        Мы используем безопасную структуру сайта, быструю загрузку и удобную навигацию, чтобы каждый пользователь мог найти интересный контент.
+    </p>
+</header>
+
+<main>
+    <section class="categories">
+        <a href="/categories/gaming.html" class="cat-item">Игры</a>
+        <a href="/categories/news.html" class="cat-item">Новости</a>
+        <a href="/categories/music.html" class="cat-item">Музыка</a>
+        <a href="/categories/entertainment.html" class="cat-item">Развлечения</a>
+        <a href="/categories/shorts.html" class="cat-item">Shorts подборки</a>
+    </section>
+</main>
+
+<footer>
+    © 2025 DrakMedia. Структурированный каталог видеоподборок.
+</footer>
+
+</body>
+</html>
